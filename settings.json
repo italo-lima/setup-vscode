@@ -1,0 +1,62 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme": "Dracula",
+  // Permite a visualização da pasta onde o arquivo aberto está.
+  "workbench.editor.labelFormat": "short",
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 16,
+  "editor.lineHeight": 20,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Ao mudar uma pasta de lugar ou deletar, será feito de forma automática sem confirmação
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Evita que as subpastas fiquem em linha
+  "explorer.compactFolders": false,
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 100],
+  "prettier.eslintIntegration": true,
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+
+  "editor.tabSize": 2,
+  "tslint.autoFixOnSave": true,
+  "window.zoomLevel": -1,
+  // Ignora as recomendações de extensões do próprio editor
+  "extensions.ignoreRecommendations": true,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "nunjucks": "html"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "nunjucks": "html"
+  },
+  // Evita que as correções de importações seja feita de forma automática
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  // Mostra a árvore de arquivos no começo do arquivo
+  "breadcrumbs.enabled": true,
+  "git.enableSmartCommit": true,
+  "editor.parameterHints.enabled": false,
+  "prettier.tslintIntegration": true
+}
+
